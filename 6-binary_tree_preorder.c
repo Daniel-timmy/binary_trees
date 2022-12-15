@@ -1,4 +1,4 @@
-#include "binar_treess.h"
+#include "binary_trees.h"
 /**
  * binary_tree_preorder - iterate through a list
  * @func: a function
@@ -14,4 +14,3 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 	binary_tree_preorder(tree->left, func);
 	binary_tree_preorder(tree->right, func);
 }
-
